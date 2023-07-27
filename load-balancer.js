@@ -1,7 +1,6 @@
 import {createServer} from 'http';
 import httpProxy from 'http-proxy';
 import { resDecorator } from './utils/index.js';
-import Consul from 'consul';
 
 const PORT = process.env.PORT || process.argv[2] || 8080;
 
